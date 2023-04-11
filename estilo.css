@@ -1,11 +1,27 @@
+.cabec{
+
+    position: absolute;
+width: 1390px;
+height: 272px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(157, 28, 28, 0) 0%, #9D1C1C 65.62%);
+}
+.avatar{
+    position: absolute;
+width: 169px;
+height: 169px;
+left: 128px;
+top: 54px;
+
+}
 body{
-    background-color:rgba(160, 149, 100);
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
-    text-align: center;
-    display: inline;
-    font-size: 14px;
+    position: absolute;
+width: 1387px;
+height: 640px;
+
+background: #9D1C1C;
     }
     h3{
     font-family: 'Lucida Sans';
