@@ -35,3 +35,16 @@ font-size: 36px;
 font-family: Inter;
 letter-spacing: 3.6px;
 }
+.corpo{
+    width: 1440px;
+    height: 640px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #9D1C1C 0%, rgba(157, 28, 28, 0.00) 100%);
+}
+.corpo-itens{
+    text-align: center;
+    padding: 16px 0;
+}
+.corpo-itens-img{
+    width: 280px;
+}
