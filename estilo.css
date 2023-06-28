@@ -12,4 +12,26 @@ letter-spacing: 4.8px;
 
 
 }
-.cabecalho
+.cabecalho{
+    width: 1440px;
+height: 229px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #BC2323 0%, #9D1C1C 65.63%);
+}
+.cabecalho-img{
+    width: 221px;
+height: 197px;
+flex-shrink: 0;
+}
+.cabecalho-texto{
+    display: flex;
+width: 514px;
+height: 142px;
+flex-direction: column;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-size: 36px;
+font-family: Inter;
+letter-spacing: 3.6px;
+}
