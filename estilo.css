@@ -5,11 +5,14 @@
     background: #BC2323; 
 }
 .menu-texto{
-    color: #000;
+    
+color: #000;
 font-size: 16px;
 font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 letter-spacing: 4.8px;
-
 
 }
 .cabecalho{
@@ -36,7 +39,12 @@ font-family: Inter;
 letter-spacing: 3.6px;
 }
 .corpo{
-    width: 1440px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    left: 320px;
+    width: 1000px;
     height: 640px;
     flex-shrink: 0;
     background: linear-gradient(180deg, #9D1C1C 0%, rgba(157, 28, 28, 0.00) 100%);
