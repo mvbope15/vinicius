@@ -64,3 +64,18 @@ letter-spacing: 3.6px;
 .corpo-itens-img{
     width: 280px;
 }
+.rodape{
+    width: 1440px;
+height: 114px;
+flex-shrink: 0;
+background: linear-gradient(180deg, rgba(188, 35, 35, 0.00) 0%, #BC2323 100%);
+}
+.rodape-texto{
+    color: #000;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 6px;
+}
