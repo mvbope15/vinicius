@@ -5,7 +5,8 @@
     background: #BC2323; 
 }
 .menu-texto{
-    
+    position: absolute;
+    left: 1200px;
 color: #000;
 font-size: 16px;
 font-family: Inter;
@@ -17,18 +18,24 @@ letter-spacing: 4.8px;
 }
 .cabecalho{
     width: 1440px;
-height: 229px;
+height: 329px;
 flex-shrink: 0;
 background: linear-gradient(180deg, #BC2323 0%, #9D1C1C 65.63%);
 }
 .cabecalho-img{
     width: 221px;
-height: 197px;
+    position: absolute;
+    left: 100px;
+
 flex-shrink: 0;
 }
 .cabecalho-texto{
     display: flex;
-width: 514px;
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    display: flex;
+    width: 600px;
 height: 142px;
 flex-direction: column;
 flex-shrink: 0;
@@ -43,13 +50,14 @@ letter-spacing: 3.6px;
     text-align: center;
     grid-template-columns: 30% 30% 30%;
     position: absolute;
-    left: 320px;
-    width: 1000px;
+    
+    width: 1440px;
     height: 640px;
     flex-shrink: 0;
     background: linear-gradient(180deg, #9D1C1C 0%, rgba(157, 28, 28, 0.00) 100%);
 }
 .corpo-itens{
+
     text-align: center;
     padding: 16px 0;
 }
